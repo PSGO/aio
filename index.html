@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html manifest="Cache.manifest">
+  <head>
+	<meta charset="UTF-8">
+    <title>PS5 AIO | Menu Cache Date：2025/1/25 | by PSGO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/stylesheet.css">
+  
+<script>
+window.applicationCache.ondownloading = function()
+{
+	alert("The menu has a new cache! \n\n Click the OK button to start caching! Please do not operate until the cache is completed! \n\n Remember to regularly open the PS5 network to check for cache updates in the future~")
+};
+
+window.applicationCache.onprogress = function(a)
+{
+	document.getElementById("progress").innerHTML="Cache in progress, please do not operate: "+(Math.round(100*(a.loaded/a.total)))+"%";
+};
+
+window.applicationCache.oncached = window.applicationCache.onupdateready = function()
+{
+	alert("Menu cache completed! \n\n If you want to use the jailbreak plan offline, please click on the offline jailbreak plan button while connected to the internet to enter and cache and update separately!")
+    location.reload();
+};
+
+if(!document.location.href.endswith("/index.html"))
+    document.location.href = "index.html";
+</script>
+<script>
+function mostrarPopup() {
+    const url = prompt("Lite browser\n\n Tip：If you want to access an offline caching website, you need to distinguish between uppercase and lowercase letters, and distinguish between HTTP and HTTPS", "https://");
+
+    if (url) {
+		
+        window.open(url, '_blank');
+    }
+}
+
+function manejarKeyPress(event) {
+
+    if (event.keyCode == 118) {
+        mostrarPopup();
+    }
+}
+
+document.addEventListener("keydown", manejarKeyPress);
+</script>
+  </head>
+
+  <body>
+  <br> 
+  <h1 style="font-size:60px;text-align:center;font-style:italic;text-shadow: 3px 2px #c4e4f6;"><font color="#39C">PS5 Exploit Host AIO</font></h1> 
+  <h2 id="progress" style="font-size:30px;text-align:center;color:#39C;font-style:italic;font-weight:bold;"><font color="#39C">Most Exploit Host Support Offline Cache</font></h2>
+  <br>  
+	<ul>
+      <li><a target="_blank" href="https://ps5jb.pages.dev">idlesauce - IPV6 UAF - For 3.x 4.x</a></li>
+      <li><a target="_blank" href="https://umtx.pages.dev/">idlesauce - UMTX - For 1.x 2.x 5.x</a></li>
+      <li><a target="_blank" href="https://es7in1.site/ps5/index.html">Echo Stretch - 7in1</a></li>
+      <li><a target="_blank" href="https://manuals.playstation.net/document/pb/ps5/index.html">User’s Guide Entrance - Support ESP/DNS</a></li>
+      <li><a target="_blank" href="https://psgo.github.io/onlinehost/qing/">Clear offline Cache - Need internet</a></li>
+	  	  <li><a href="" onclick="mostrarPopup()">Lite browser - Press L2 key</a></li>
+    </ul>
+	<br>
+	<ul>
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">Lite For 3.x 4.x</div> <br>
+      <li><a target="_blank" href="https://ps5xploit.github.io/lite/">Mouuu</a></li>
+	  <li><a target="_blank" href="https://josexgonzalez.github.io/Autoexploit.github.io/">TeRex777</a></li>
+	  <li><a target="_blank" href="https://ps4macedo.github.io/ps5sl9/">Macedo - Superlight9</a></li>
+	  <li><a target="_blank" href="../offlinehostauto/">PSGO - Kstuff</a></li>
+      <li><a target="_blank" href="../offlinehostautoeta/">PSGO - etaHEN</a></li>
+      <li><a target="_blank" href="https://lightningmods.github.io/exploits/#PS5">Specter - For manual debug</a></li>
+      <li><a target="_blank" href="https://sleirsgoevy.github.io/ps4jb2/ps5-403/">Respect Sleirsgoevy</a></li>
+    </ul>
+	<br>
+	
+	<ul>
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">Multi-Payloads For 3.x 4.x</div> <br>
+	  <li><a target="_blank" href="https://ps5xploit.github.io/">Mouuu</a></li>
+	  <li><a target="_blank" href="https://josexgonzalez.github.io/exploit/">TeRex777</a></li>
+	  <li><a target="_blank" href="https://gamerhack.github.io/ps5jb/index.html">GamerHack</a></li>
+	  <li><a target="_blank" href="https://zecoxao.github.io/ps5jb/">Zecoxao</a></li>
+      <li><a target="_blank" href="https://ksamj.github.io/">KsAmJ</a></li>
+	  <!-- <li><a target="_blank" href="https://zerofo.gitee.io/ps5/">Zerofo</a></li> -->
+      <!-- <li><a target="_blank" href="http://wolf2022.ir/ps5/index.html">The Wolf</a></li> -->
+      <li><a target="_blank" href="../offlinehost/">PSGO</a></li>
+    </ul>
+	<br>
+	
+	<ul>
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">UMTX For 1.x 2.x 5.x</div> <br>
+	  <li><a target="_blank" href="https://zecoxao.github.io/umtx/">Zecoxao</a></li>
+	  <li><a target="_blank" href="https://ps5xploit.github.io/umtx/">Mouuu</a></li>
+	  <li><a target="_blank" href="https://wolf-5.github.io/ps5/index.html">Wolf</a></li>
+	  <li><a target="_blank" href="../umtx/">PSGO</a></li>
+    </ul>
+	<br>
+	
+	<ul class="hide-on-ps5">
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">ESP (Open with PC browser)</div> <br>
+	  <li><a style="cursor: pointer"  id="button2">ESP32s2 - ES - PWD12345678</a></li>
+	  <li><a style="cursor: pointer"  id="button1">ESP8266 - ES - PWD12345678</a></li>
+	  <!-- <li><a style="cursor: pointer" id="button3">FeatherS2(16MB)-ES-PWD12345678</a></li> -->
+	  <!-- <li><a href="#" onclick="fetchAndOpenLink(4, this); return false;">LilyGoS3(16MB)-ES-PWD12345678</a></li> -->
+	  <li><a target="_blank" href="https://psgo.lanzoub.com/iLLi91wwvu4b">ESP Driver</a></li>
+	  <li><a target="_blank" href="https://psgo.github.io/esptoolv2/">ESP Web Flasher v2 For Win/Mac/Linux</a></li>
+	  <li><a target="_blank" href="https://psgo.github.io/esptool/">ESP Web Flasher v1 For Win/Mac/Linux</a></li>
+	  <li><a target="_blank" href="https://psgo.lanzoub.com/izN5i2jjny4h">ESP Flasher For Android</a></li>
+    </ul>
+	<br>
+	
+	<ul class="hide-on-ps5">
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">Windows Offline Self Host (Open with PC browser)</div> <br>
+	  <li><a target="_blank" href="https://github.com/PSGO/PS5-IPV6-Local-Server">IPV6 UAF - For 3.x 4.x</a></li>
+	  <li><a target="_blank" href="https://github.com/PSGO/PS5-UMTX-Local-Server">UMTX - For 1.x 2.x 5.x</a></li>
+    </ul>
+	<br>
+	
+	<ul class="hide-on-ps5">
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">BD-JB For 1.00-7.61 (Open with PC browser)</div> <br>
+	  <li><a target="_blank" href="https://github.com/ps5-payload-dev/bdj-ipv6-hen">BDJ-IPV6-HEN For 3.x 4.x</a></li>
+	  <li><a target="_blank" href="https://github.com/hammer-83/ps5-jar-loader/releases">BD UMTX & JAR Loader & Payloads</a></li>
+	  <li><a target="_blank" href="https://www.imgburn.com/index.php?act=download">Imgburn - Burn BD-RE/R Tool</a></li>
+	  <li><a target="_blank" href="https://github.com/aldostools/PS5-Payloads/releases">PS5 Payloads - Send Payload Tool</a></li>
+	  <li><a target="_blank" href="https://sourceforge.net/projects/unix-utils/files/socat/1.7.3.2/">Socat - Send Payload Tool</a></li>
+	  <li><a target="_blank" href="https://gbatemp.net/download/netcat-gui-1-2.37153/history">Netcat - Send Payload Tool</a></li>
+    </ul class="hide-on-ps5">
+	<br>
+	
+	<ul class="hide-on-ps5">
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">Game (Open with PC browser)</div> <br>
+	  <li><a target="_blank" href="https://pastebin.com/UeRiMQjf">PS5 GAME DUMPS by BedroZen</a></li>
+	  <li><a target="_blank" href="https://ps5pkg.net/">PS5PKG.NET</a></li>
+	  <li><a target="_blank" href="https://dlpsgame.com/category/ps5/">DLPSGAME.COM</a></li>
+	  <li><a target="_blank" href="https://ps4pkg.com/">PS4PKG.COM</a></li>
+	  <li><a target="_blank" href="https://pkg-zone.com/details/ITEM00001">Itemzflow - Game Manager</a></li>
+	  <li><a target="_blank" href="https://pkg-zone.com/details/LAPY20011">Xplorer - File Manager</a></li>
+	  <li><a target="_blank" href="https://github.com/GoldHEN/GoldHEN_Cheat_Repository">PS4 Cheats Database</a></li>
+	  <li><a target="_blank" href="https://psgo.lanzoub.com/iM4Bs2lk3xbg">PS5 Cheats temporary</a></li>
+	  <li><a target="_blank" href="https://gofile.io/d/1BYBfj">MultiTrainer II & Reaper</a></li>
+	  <li><a target="_blank" href="https://motrix.app/">Motrix - Full-featured download manager</a></li>
+    </ul>
+	<br>
+	
+	<ul class="hide-on-ps5">
+	<div style="font-size:20px;text-align:center;color:#39C;font-style:;font-weight:;">Others</div> <br>
+	  <li><a target="_blank" href="https://gbatemp.net/threads/ps5-exploit-guide.613891/">PS5 Jailbreak / CFW Status</a></li>
+	  <li><a target="_blank" >DNS: 62.210.38.117 / 165.227.83.145 / 192.241.221.79</a></li>
+	  <li><a target="_blank" href="https://psgo.lanzoub.com/iuMfi2j6gkyd">PS5 JB AIO.PKG</a></li>
+	  <li><a target="_blank" href="https://darthsternie.net/ps5-firmwares/">PS5 Firmwares</a></li>
+	  <li><a target="_blank" href="https://www.playstation.com/en-us/wallpapers/">Playstation Wallpapers</a></li>
+	  <li><a target="_blank" href="https://hardwaretester.com/gamepad">GAMEPAD Tester</a></li>
+	  <li><a target="_blank" href="https://controller.dl.playstation.net/controller/lang/en/2100004.html">Update DualSense</a></li>
+	  <li><a target="_blank" href="https://github.com/Denellyne/PCXSense">PCXSense - Dualsense For PC</a></li>
+    </ul>
+	
+	<br><br><br><br><br><br><br><br><br>
+	
+	<div style="font-size:20px;" id="fork-me">
+	<!-- Link：<a href="https://psgo.github.io/aio/">psgo.github.io/aio/</a><br> -->
+	PS5 AIO.PKG：<a target="_blank" href="https://psgo.lanzoub.com/iuMfi2j6gkyd">Download</a><br>
+	Link：https://psgo.github.io/aio/<br>
+	Follow：https://x.com/psgocn<br><br>
+	Please share with your friends <br>
+	</div>
+	
+    <div class="clear"></div>
+    <img id="image" src="resources/images/tio.png">
+  </body>
+  <script>
+    const fileMap = {
+      button1: 'https://fetchesp.psgo.eu.org/ESP8266.txt',
+      button2: 'https://fetchesp.psgo.eu.org/ESP32S2.txt',
+      button3: 'https://fetchesp.psgo.eu.org/LilyGo.txt',
+    };
+
+    Object.keys(fileMap).forEach(buttonId => {
+      const button = document.getElementById(buttonId);
+      button.addEventListener('click', async () => {
+        const fileUrl = fileMap[buttonId];
+        
+        const newTab = window.open('', '_blank');
+        newTab.document.write('<html><head><title>Fetching...</title></head><body><h1>Fetching the latest file link, please wait...</h1></body></html>');
+        newTab.document.close();
+
+        try {
+          const response = await fetch(fileUrl);
+          if (!response.ok) throw new Error(`Failed to fetch ${fileUrl}`);
+          const url = await response.text();
+
+          if (url) {
+            newTab.location.href = url.trim();
+          } else {
+            newTab.document.body.innerHTML = '<h1>No valid URL found, please try again later.</h1>';
+          }
+        } catch (error) {
+          console.error('Error fetching file:', error);
+          newTab.document.body.innerHTML = '<h1>An error occurred, unable to fetch the URL.</h1>';
+        }
+      });
+    });
+  </script>
+</html>
+<script>
+  if(!navigator.userAgent.includes('PlayStation 5')) {
+    <!-- alert("Please enter this page in the PS5 browser! Suggest downloading AIO PKG and installing it on PS5!\n\n Click OK button to preview the page~"); -->
+	document.getElementById("progress").innerHTML="Open and Cache menu from PS5 browser";
+  }
+  else{
+    // 隐藏指定的 ul 元素
+      const elementsToHide = document.querySelectorAll('.hide-on-ps5');
+      elementsToHide.forEach(element => element.style.display = 'none');
+	  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics统计 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7VRDNYTJ1Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7VRDNYTJ1Y');
+</script>

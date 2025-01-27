@@ -1,0 +1,11 @@
+CACHE MANIFEST 
+#psgo.github.io 2025/1/25
+
+CACHE: 
+index.html
+resources\stylesheet.css
+resources\images\mishy.png
+resources\images\tio.png
+
+NETWORK: 
+* 
